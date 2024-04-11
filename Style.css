@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+div{
+    width: 100%;
+}
+#agregarContacto{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+#agregarContacto:hover, #mostrar-contacto:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+#imprimir{
+    width: 15%;
+    margin: 0 42.5% ;
+}
+button{
+    display: inline;
+}
+
+#mostrar-contacto{
+    width: 200px;
+}
+div{
+    text-align: center;
+}
+#mostrar-contacto2{
+    margin-top: 60px;
+    background-color: bisque;
+    height: 100vh;
+}
+#mostrar-contacto2 > div > h2{
+    padding: 30px;
+}
+#App-Agenda{
+    background-color: rgba(255, 235, 205, 0.123);
+}
